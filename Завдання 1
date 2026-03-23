@@ -6,8 +6,8 @@ int main() {
     printf("Enter two integers:\n");
     scanf_s("%d %d", &a, &b);
 
-    printf("Remainder (a %% b): %d\n", a % b);
-    printf("Difference (b - a): %d\n", b - a);
+    printf("Remainder: %d\n", a % b);
+    printf("Difference: %d\n", b - a);
     printf("Sum of squares: %d\n", a * a + b * b);
 
     return 0;
