@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    const double a = 15;
+    const double b = 0;
+    const double c = -3;
+
+    double y;
+
+    y = (5 * a + b + pow(c, 2)) / (2 + c) + 1;
+
+    printf("y = %.2lf\n", y);
+
+    return 0;
+}
